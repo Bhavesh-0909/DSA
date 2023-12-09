@@ -7,6 +7,7 @@ void ascorder(int arr[], int size){
        {
             if (arr[i]>arr[j])
             {
+                cout<<arr[i];
                 swap(arr[i],arr[j]);
             }
             
